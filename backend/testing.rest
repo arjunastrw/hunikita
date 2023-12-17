@@ -1,0 +1,19 @@
+## REGISTER
+POST http://localhost8081/register
+Content-Type: application/json
+
+{
+  "name": "testuser",
+  "email": "testuser@example.com",
+  "password": "testpassword"
+}
+
+### Login
+POST htpp://localhost8081/login
+Content-Type: application/json
+
+{
+    "email": "testuser@example.com",
+  "password": "testpassword"
+}
+
